@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ratafix</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/logo.png"/>
+</head>
+
+    <body class="bg-gray-100 font-sans">
+
+        <header class="bg-green-600 shadow-md fixed top-0 left-0 w-full z-50">
+            <div class="container mx-auto flex justify-between items-center p-4 text-white">
+                <div class="flex items-center">
+                    <img src="assets/img/logo.png" width="50" alt="Logo">
+                </div>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-green-700 transition duration-300">Inicio</a>
+                    <a href="repnote.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Reparación de Notebooks</a>
+                    <a href="repmac.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Reparación de Mac</a>
+                    <a href="servtec.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Servicio Técnico</a>
+                    <a href="blog.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Blog</a>
+                    <a href="contacto.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Contacto</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+    <!-- Portada -->
+  <section class="relative w-full h-[70vh]">
+    <!-- Imagen de la portada-->
+    <div class="absolute inset-0">
+      <img src="assets/img/fondo1.jpg" alt="Ratafix" 
+           class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-purple-900/50"></div>
+    </div>
+
+    <!-- Texto de la portada -->
+    <div class="relative z-10 max-w-4xl mx-auto px-6 h-full flex flex-col justify-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+        Ratafix
+      </h1>
+      <p class="text-lg md:text-xl text-white leading-relaxed">
+        La empresa mas confiable y con mas de 10 años de experiencia en reparación de notebooks, mac y servicio técnico.
+        Servicio exelente garantizado,
+        <span class="font-semibold">Tu solución está aquí.</span>
+      </p>
+    </div>
+  </section>
+    <!-- Servicios ratafixeanos-->
+<section class="max-w-7xl mx-auto px-6 py-12 pt-30 ">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
+      
+      <div class="md:col-span-2 flex gap-4">
+        <img src="assets/img/epico.jpg" alt="Reparación" class="w-1/2">
+        <img src="assets/img/epico2.jpg" alt="Reparación" class="w-1/2">
+      </div>
+
+      <div class="space-y-4">
+        <h4 class="text-sm font-semibold text-green-700 uppercase">Servicios ratafixeanos</h4>
+        <h2 class="text-3xl font-bold text-green-800 leading-snug">Nuestros servicios le ahorran tiempo</h2>
+
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-center">-Reparación de computadoras</li>
+          <li class="flex items-center">-Upgrades de hardware</li>
+          <li class="flex items-center">-Optimización del sistema</li>
+          <li class="flex items-center">-Mantenimiento preventivo</li>
+          <li class="flex items-center">-Formateo y reinstalación de sistema operativo</li>
+        </ul>
+
+        <a href="contacto.html" class="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-full shadow hover:bg-green-700 transition">
+          Contáctanos Ahora!
+        </a>
+      </div>
+    </div>
+  </section>
+<hr class="border-teal-500">
+<!--Seccion porque elegir ratafix-->
+<section class="bg-gray-50 py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-green-700 mb-12">
+      ¿Por qué elegir a Ratafix?
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Carta 1 -->
+      <div class="bg-white shadow-lg rounded-2xl p-6 text-center hover:shadow-xl transition">
+        <img src="assets/img/1.png" alt="Atención rápida" class="mx-auto mb-4 w-16 h-16">
+        <h3 class="text-xl font-semibold mb-2">Atención rápida</h3>
+        <p class="text-gray-600">
+          Reparamos tu equipo en el menor tiempo posible sin perder calidad.
+        </p>
+      </div>
+
+      <!-- carta 2 -->
+      <div class="bg-white shadow-lg rounded-2xl p-6 text-center hover:shadow-xl transition">
+        <img src="assets/img/3.png" alt="Precios accesibles" class="mx-auto mb-4 w-16 h-16">
+        <h3 class="text-xl font-semibold mb-2">Precios accesibles</h3>
+        <p class="text-gray-600">
+          Servicios al alcance de todos, con la mejor relación calidad precio.
+        </p>
+      </div>
+
+      <!-- Carta 3 -->
+      <div class="bg-white shadow-lg rounded-2xl p-6 text-center hover:shadow-xl transition">
+        <img src="assets/img/2.png" alt="Garantía" class="mx-auto mb-4 w-16 h-16">
+        <h3 class="text-xl font-semibold mb-2">Confianza</h3>
+        <p class="text-gray-600">
+          Seguridad que tu equipo está en buenas manos.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Footer-->
+        <footer class="bg-gray-900 text-gray-300 py-12 px-4 shadow-inner">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+                
+                <div class="col-span-1 flex flex-col items-center md:items-start text-center md:text-left">
+                    <img src="assets/img/logo2.png" alt="Ratafix Logo" class="w-24 mb-4">
+                    <p class="text-sm leading-relaxed mb-4">
+                        Ratafix cuenta con Servicio Tecnico para Notebook o Computadores a Domicilio en Castro y comunas cercanas. Nuestro personal Calificado atiende Particulares y Empresas. 
+                    </p>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Explorar</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-green-500 transition duration-300">Inicio</a></li>
+                        <li><a href="repnote.html" class="text-gray-400 hover:text-green-500 transition duration-300">Reparación de Notebooks</a></li>
+                        <li><a href="repmac.html" class="text-gray-400 hover:text-green-500 transition duration-300">Reparación de Mac</a></li>
+                        <li><a href="servtec.html" class="text-gray-400 hover:text-green-500 transition duration-300">Servicio Técnico</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Contactenos!</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Servicios</h4>
+                    <ul class="space-y-2">
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Diagnóstico Gratuito</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Mantenimiento Preventivo</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Recuperación de Datos</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Instalación de Software</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Upgrade de Componentes</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Contáctanos</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="https://www.google.com/maps/dir//Ubaldo+Mansilla+131,+5700328+Castro,+Los+Lagos/@-42.4829212,-73.858618,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x962219aab6135abf:0xa611de6e11e7980d!2m2!1d-73.7762172!2d-42.4829507?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" class="text-gray-400 hover:text-green-500 transition duration-300">Ubaldo Mansilla 131, 5700328 Castro, Los Lagos</a>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="tel:+123456789" class="text-gray-400 hover:text-green-500 transition duration-300">+56 9 1234 5678</a>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">contacto@ratafix.cl</a>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+            <div class="border-t border-gray-700 mt-10 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; <span id="current-year"></span> Ratafix. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!-- Script que actualiza el año automaticamente en el footer-->
+        <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
+</body>
+</html>

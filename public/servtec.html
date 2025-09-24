@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Técnico - ratafix</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/logo.png"/>
+</head>
+    <body class="bg-gray-100 font-sans antialiased">
+
+        <header class="bg-green-600 shadow-md fixed top-0 left-0 w-full z-50">
+            <div class="container mx-auto flex justify-between items-center p-4 text-white">
+                <div class="flex items-center">
+                    <img src="assets/img/logo.png" width="50" alt="Logo">
+                </div>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Inicio</a>
+                    <a href="repnote.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Reparación de Notebooks</a>
+                    <a href="repmac.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Reparación de Mac</a>
+                    <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-green-700 transition duration-300">Servicio Técnico</a>
+                    <a href="blog.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Blog</a>
+                    <a href="contacto.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Contacto</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+   <!-- Portada -->
+  <section class="relative w-full h-[70vh]">
+    <!-- Fondo -->
+    <div class="absolute inset-0">
+      <img src="assets/img/fondo5.jpg" alt="Servicio tecnico" 
+           class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-purple-900/50"></div>
+    </div>
+
+    <!-- Texto -->
+    <div class="relative z-10 max-w-4xl mx-auto px-6 h-full flex flex-col justify-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+        Optimiza tu Equipo Gamer
+      </h1>
+      <p class="text-lg md:text-xl text-white leading-relaxed">
+        Ofrecemos planes de mantenimiento para equipos informáticos destinados a empresas, pymes y microempresas. Aseguramos el óptimo rendimiento y prolongamos la vida útil de tus dispositivos, adaptándonos a las necesidades específicas.
+      </p>
+    </div>
+  </section>
+
+ 
+
+    <!-- Servicios ratafixeanos-->
+<section class="max-w-7xl mx-auto px-6 py-12 pt-30 ">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
+      
+      <div class="md:col-span-2 flex gap-4">
+        <img src="assets/img/epico.jpg" alt="Reparación" class="w-1/2 rounded shadow-md">
+        <img src="assets/img/epico2.jpg" alt="Reparación" class="w-1/2 rounded shadow-md">
+      </div>
+
+      <div class="space-y-4">
+        <h4 class="text-sm font-semibold text-green-700 uppercase">Servicios ratafixeanos</h4>
+        <h2 class="text-3xl font-bold text-green-800 leading-snug">
+          Nuestros servicios le ahorran tiempo
+        </h2>
+
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-center">-Reparación de computadoras</li>
+          <li class="flex items-center">-Upgrades de hardware</li>
+          <li class="flex items-center">-Optimización del sistema</li>
+          <li class="flex items-center">-Mantenimiento preventivo</li>
+          <li class="flex items-center">-Formateo y reinstalación de sistema operativo</li>
+        </ul>
+
+        <a href="#contacto" class="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-full shadow hover:bg-green-700 transition">
+          Contáctanos Ahora!
+        </a>
+      </div>
+    </div>
+  </section>
+
+<hr class="border-teal-500">
+<!--Preguntas frecuentes-->
+
+<section class="container mx-auto max-w-3xl px-4 py-12">
+    <h2 class="text-3xl font-bold text-center text-green-600 mb-10">Servicios Principales:</h2>
+    <div class="space-y-8">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+                Reparación:
+            </h3>
+            <p class="mt-2 text-gray-600">-Diagnóstico y solución de problemas de hardware y software.</p>
+            <p class="mt-2 text-gray-600">-Reparación de daños físicos, como pantallas rotas o teclados dañados.</p>
+        </div>
+        
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+                Upgrades de hardware:
+            </h3>
+            <p class="mt-2 text-gray-600"><strong>Disco duro:</strong> Aumenta la velocidad y capacidad de almacenamiento con SSDs de última generación.</p>
+            <p class="mt-2 text-gray-600"><strong>RAM:</strong> Mejora el rendimiento y la capacidad multitarea de tu equipo con módulos de RAM de alta velocidad.</p>
+            <p class="mt-2 text-gray-600"><strong>GPU:</strong> Actualización de la tarjeta gráfica para un rendimiento gráfico superior en tus juegos favoritos.</p>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+                Optimización del sistema:
+            </h3>
+            <p class="mt-2 text-gray-600">-Configuración avanzada del sistema operativo para maximizar el rendimiento en juegos.</p>
+            <p class="mt-2 text-gray-600">-Eliminación de software no deseado y optimización de arranque para tiempos de carga más rápidos.</p>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+                Mantenimiento preventivo:
+            </h3>
+            <p class="mt-2 text-gray-600">-Limpieza interna de polvo y suciedad para evitar el sobrecalentamiento y el rendimiento reducido.</p>
+            <p class="mt-2 text-gray-600">-Reemplazo de pasta térmica para garantizar una disipación de calor óptima y un rendimiento constante.</p>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+                Formateo y reinstalación de sistema operativo:
+            </h3>
+            <p class="mt-2 text-gray-600">-Eliminación de virus y malware con reinstalación limpia de Windows o Linux.</p>
+            <p class="mt-2 text-gray-600">-Respaldo y restauración de datos importantes para una experiencia sin preocupaciones.</p>
+        </div>
+    </div>
+    <img src="assets/img/pc.jpg" alt="Reparación Notebook"  class="w-120 h-64 object-cover mt-10">
+</section>
+<!--Preguntas frecuentes-->
+<hr class="border-teal-500">
+  <div class="container mx-auto max-w-7xl px-4 py-16">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Preguntas Frecuentes</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Ofrecen garantía en los servicios de reparación?</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>Sí, ofrecemos garantía en todos nuestros servicios de reparación. Si experimentas algún problema con tu equipo después de la reparación, estaremos encantados de ayudarte y solucionarlo sin costo adicional dentro del período de garantía especificado.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Cuál es el tiempo de respuesta para las reparaciones en Ratafix?</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>El tiempo de respuesta puede variar según la complejidad del problema, pero nos esforzamos por ofrecer un servicio rápido y eficiente. Nuestro equipo te proporcionará una estimación del tiempo de reparación una vez que se haya realizado el diagnóstico inicial.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Cómo puedo solicitar un servicio de reparación en Ratafix</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>Puedes ponerte en contacto con nosotros a través de nuestro sitio web, por teléfono o visitando nuestras instalaciones en Santiago Centro. Nuestro equipo estará encantado de programar una cita para ti y ayudarte con tus necesidades de reparación.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Qué servicios de actualización ofrecen para mejorar el rendimiento de mi PC Gamer?</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>Ofrecemos una amplia gama de servicios de actualización de hardware, incluyendo la instalación de SSDs para mejorar la velocidad de carga, la actualización de la memoria RAM para mejorar el rendimiento multitarea, y la actualización de la tarjeta gráfica para mejorar el rendimiento gráfico en juegos.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Ofrecen servicios de reparación a domicilio?</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>Sí, ofrecemos servicios de reparación a domicilio en casos específicos. Ponte en contacto con nosotros para discutir tus necesidades y programar una cita.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900">¿Que tan seguro es Ratafix??</h3>
+                </div>
+                <div class="text-gray-700 text-base">
+                    <p>Muy seguro</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        <footer class="bg-gray-900 text-gray-300 py-12 px-4 shadow-inner">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+                
+                <div class="col-span-1 flex flex-col items-center md:items-start text-center md:text-left">
+                    <img src="assets/img/logo2.png" alt="Ratafix Logo" class="w-24 mb-4">
+                    <p class="text-sm leading-relaxed mb-4">
+                        Ratafix cuenta con Servicio Tecnico para Notebook o Computadores a Domicilio en Castro y comunas cercanas. Nuestro personal Calificado atiende Particulares y Empresas. 
+                    </p>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Explorar</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-green-500 transition duration-300">Inicio</a></li>
+                        <li><a href="repnote.html" class="text-gray-400 hover:text-green-500 transition duration-300">Reparación de Notebooks</a></li>
+                        <li><a href="repmac.html" class="text-gray-400 hover:text-green-500 transition duration-300">Reparación de Mac</a></li>
+                        <li><a href="servtec.html" class="text-gray-400 hover:text-green-500 transition duration-300">Servicio Técnico</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Contactenos!</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Servicios</h4>
+                    <ul class="space-y-2">
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Diagnóstico Gratuito</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Mantenimiento Preventivo</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Recuperación de Datos</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Instalación de Software</a></li>
+                        <li><a href="contacto.html" class="text-gray-400 hover:text-green-500 transition duration-300">Upgrade de Componentes</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col-span-1 text-center md:text-left">
+                    <h4 class="text-lg font-semibold text-white mb-4">Contáctanos</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="https://www.google.com/maps/dir//Ubaldo+Mansilla+131,+5700328+Castro,+Los+Lagos/@-42.4829212,-73.858618,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x962219aab6135abf:0xa611de6e11e7980d!2m2!1d-73.7762172!2d-42.4829507?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" class="text-gray-400 hover:text-green-500 transition duration-300">Ubaldo Mansilla 131, 5700328 Castro, Los Lagos</a>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="tel:+123456789" class="text-gray-400 hover:text-green-500 transition duration-300">+56 9 1234 5678</a>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">contacto@ratafix.cl</a>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+            <div class="border-t border-gray-700 mt-10 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; <span id="current-year"></span> Ratafix. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!-- Script para actualizar el año automáticamente-->
+        <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
